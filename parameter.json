@@ -24,7 +24,7 @@
       "value": "sapglobalwus2-img-vm-rg"
     },
     "vmSize": {
-      "value": "Stndard_D16s_v3"
+      "value": "Standard_D16s_v3"
     },
     "adminUsername": {
       "value": "atadmin"
