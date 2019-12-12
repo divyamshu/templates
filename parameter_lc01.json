@@ -1,0 +1,92 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmPrefixName": {
+      "value": "devus3lc01"
+    },
+    "vnetName": {
+      "value": "sapglobalwus2dv1-vnet"
+    },
+    "subnetName": {
+      "value": "sapglobalwus2dv1db-sn"
+    },
+    "networkResourceGroup": {
+      "value": "sapglobalwus2dv1-rg"
+    },
+    "imageType": {
+      "value": "Custom"
+    },
+    "imageName": {
+      "value": "dbserverrhel74-np-byos-vm-image-v0.1"
+    },
+    "imageResourceGroup": {
+      "value": "sapglobalwus2-img-vm-rg"
+    },
+    "vmSize": {
+      "value": "Standard_D8s_v3"
+    },
+    "adminUsername": {
+      "value": "atadmin"
+    },
+    "adminPassword": {
+      "value": "atadmin@2019"
+    },
+    "bootDiagST": {
+      "value": "sapglobalwus2dv1bootdiag"
+    },
+    "osType": {
+      "value": "RHEL"
+    },
+    "landscape": {
+      "value": "SCM"
+    },
+    "environment": {
+      "value": "DEV1"
+    },
+    "serverType": {
+      "value": "APP DB"
+    },
+    "vmCount": {
+      "value": 1
+    },
+    "privateIPAddress": {
+      "value": [
+        "10.180.134.71"
+      ]
+    },
+    "diskStorageType": {
+      "value": "Premium_LRS"
+    },
+    "dataDiskCount": {
+      "value": 2
+    },
+    "dataDiskSize": {
+      "value": [
+        256,
+        128
+      ]
+    },
+    "baseImage": {
+      "value": "RHEL"
+    },
+    "location": {
+      "value": "westus2"
+    },
+    "acceleratedNetworking": {
+      "value": true
+    },
+    "highAvailabilityType": {
+      "value": "Zone"
+    },
+    "publisher": {
+      "value": "CustomImage"
+    },
+    "offer": {
+      "value": "CustomImage"
+    },
+    "sku": {
+      "value": "CustomImage"
+    }
+  }
+}
